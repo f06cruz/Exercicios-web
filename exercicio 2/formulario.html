@@ -8,8 +8,9 @@
 <body>
     
     <h1>formulario</h1>
+    <form action="exercicio.html" method="get">
     <fieldset>
-    <form action="" method="get">
+        <legend>Dados Pessoais</legend>
         <div>
     <label for="">exemplo:</label>
     <input type="text" name= "form-ex" id="ex_id" required readonly value="Não dá para alterar">
@@ -40,7 +41,29 @@
         <input type="radio" name="form_melhor" id="">Sara<br>
     
     </div>
-        
+    <div>
+        <label for="">Dias da Semana</label><br>
+        <input type="checkbox" name="form-checkbox" id=""> Segunda<br>
+        <input type="checkbox" name="form-checkbox" id=""> Terça<br>
+        <input type="checkbox" name="form-checkbox" id=""> Quarta<br>
+        <input type="checkbox" name="form-checkbox" id=""> Quinta<br>
+        <input type="checkbox" name="form-checkbox" id=""> Sexta<br>
+    </div>
+    <div>
+        <label for="">Curso:</label><br>
+            <select name="form-curso" id="">
+                <option value=""disabled selected>Escolha</option><br>
+                <option value="form-curso-sd">Software</option><br>
+                <option value="form-curso-ds">Data</option><br>
+                <option value="form-curso-cs">Cybersecurity</option><br>
+            </select>        
+    </div>
+    <div>
+        <label for="">Mensagem:</label><br>
+        <textarea name="" id="" cols="50" rows="5
+        " maxlength="15"></textarea>
+    </div>
+        <input type="reset" value="Limpar">
         <input type="submit" value="Enviar">
     </div>
 </form>
