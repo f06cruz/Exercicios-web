@@ -1,0 +1,15 @@
+header { text-align: center;}
+
+nav img { height: 20px;}
+
+.texto-branco-fundo-preto {
+    color: white;
+    background-color: black;
+}
+
+#form-mail {
+    background-color: blue;
+    color: red;
+}
+
+/* comentários*/
