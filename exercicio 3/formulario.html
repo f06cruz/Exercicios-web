@@ -23,27 +23,30 @@
         <legend>Formulário de contacto do CESAE</legend>
         <div>
             <label for="">Nome:</label>
-            <input type="text" name= "form-nome" id="" required placeholder="Insira o seu nome aqui">
+            <input type="text" name= "form-nome" id="form-nome" required placeholder="Insira o seu nome aqui"><span>*</span>
         </div>
         <div>
             <label for="">Email: </label>
-            <input type="email" name="form-mail" id="" required><br>
+            <input type="email" name="form-mail" id="form-mail" required><span>*</span>
+        <br>
         <br>
         </div>
         <div>
             <label for="">Género</label><br>
-            <input type="radio" name="form-radio" id=""> Masculino<br>
-            <input type="radio" name="form-radio" id=""> Femenino<br>
+            <input type="radio" name="form-radio" id="form-radiom"> Masculino<br>
+            <input type="radio" name="form-radio" id="form-radiof"> Femenino<br>
+            <input type="radio" name="form-radio" id="form-radioo">Outro<br>
         <br>
         </div>
         <div>
             <label for="">Data atual:</label>
-            <input type="date" name="form_data" id="">
+            <input type="date" name="form_data" id="form_data" value="2026-01-01">
         </div>
         <div>
             <label for="">Turma:</label>
-                <select name="form-turma" id="">
+                <select name="form-turma" id="form-turma">
                     <option value="form-curso-web" selected>Web Developer & Mobile</option><br>
+                    <option value="form-curso-sd" selected>Software</option><br>
                     <option value="form-curso-outra">Outra</option><br>
                 </select>
         </div>
