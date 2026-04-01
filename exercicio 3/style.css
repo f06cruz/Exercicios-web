@@ -4,7 +4,7 @@ body { background-color: #0000ff;
         text-align:center;
         border-width: 20px 40px 10px 50px; 
          border-style: solid dotted dashed double; 
-         border-color: greenyellow; 
+         border-color: rgba(0, 255, 0, 0.5); 
          
     }
 
