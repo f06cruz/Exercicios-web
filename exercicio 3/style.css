@@ -1,21 +1,44 @@
 body { background-color: bisque;
-    border-width: 20px;
-        /*padding: 20px;
+        border-width: 20px;
+        padding: 20px;
         text-align:center;
-        border-width: 20px 40px 10px 50px; 
+        font-family: Saira Stencil;
+        /*
+        background-color: blue;
+        border-width: 20px;
+        padding: 20px;
+        text-align:center;border-width: 20px 40px 10px 50px; 
+        color: white;
          border-style: solid dotted dashed double; 
-         border-color: rgba(0, 255, 0, 0.5); */
-         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         border-color: rgba(0, 255, 0, 0.7);
+         font-variant: small-caps;  
+         font-family: 'Courier New', Courier, monospace */
+         
+         
          
     }
 
 
-
-header{ text-align: center;
-             
+.saira-stencil-<uniquifier> {
+  font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
-header>img { width: 50%;
-               
+
+header{ text-align: center; 
+    letter-spacing: -1px;
+    line-height: 2; 
+    
+}
+header>img { width: 50%;              
+}
+
+.fundo_preto {
+    background-color: grey;
+    
 }
 
 footer { width: 100%;
@@ -23,6 +46,7 @@ footer { width: 100%;
     padding: 5px;
     border: 10px;
     text-align: center;
+    color: white;
                
 }
 nav {
@@ -33,14 +57,36 @@ nav {
 
 nav>a {
          color: white;
+         text-decoration: none;
+}
+a:link{
+ color: white;
+}
+/*a:visited{
+    color: green;
+}*/
+a:hover{
+    color: hotpink;
+    text-decoration: underline overline;
+    transform: scale(5);
+}
+a:active{
+    color:blue
 }
 
-p {
+main {
     text-align: justify;
+    text-indent: 2%;
+    letter-spacing: -1px;
+    line-height: 2;
+    
 }
 
 
 
+
+
+/*--------------------------------------------------------------*/
 
 
 span {color: yellow;
