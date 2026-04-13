@@ -1,0 +1,110 @@
+:root {
+    --vermelho: #E51C15;
+    --vermelho70: rgba(229, 28, 21, 0.7);
+    --branco: #FFFFFF;
+    --branco50: rgba(255, 255, 255, 0.5);
+}
+
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header,
+footer {
+    background-color: var(--vermelho) !important;
+}
+
+main {
+    margin-bottom: 120px;
+}
+
+.btn {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+}
+
+.btn:hover {
+    background-color: var(--branco);
+    color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+}
+
+.btn:active,
+.btn:focus,
+.btn:active:focus {
+    background-color: var(--vermelho) !important;
+    color: var(--branco) !important;
+    border: 1px solid var(--branco) !important;
+}
+
+nav .form-control {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+}
+
+nav .form-control:focus {
+    background-color: var(--vermelho) !important;
+    color: var(--branco) !important;
+    border: 1px solid var(--branco) !important;
+    box-shadow: none !important;
+}
+
+a .bi {
+    color: var(--branco);
+}
+
+a .bi:hover {
+    color: var(--branco50)
+}
+
+.carousel-caption {
+    background-color: var(--vermelho70);
+    color: var(--branco);
+    border-radius: 100px;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
+}
+
+.badge {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+}
+
+.card-title {
+    min-height: 96px;
+}
+
+.page-link {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+}
+
+.page-link:active,
+.page-link:focus,
+.page-link:hover {
+    background-color: var(--branco);
+    color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+}
+
+.toast-header img {
+    width: 20px;
+    height: 20px;
+}

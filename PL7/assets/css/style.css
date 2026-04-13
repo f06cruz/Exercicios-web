@@ -1,0 +1,54 @@
+:root{
+    --vermelho: #E51C15;
+    --vermelho70: rgba(229, 28, 21, 0.7);
+    --branco: #FFFFFF;
+    --branco50: rgba(255, 255, 255, 0.5);
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: var(--vermelho);
+}
+
+main{
+    margin-bottom: 120px;
+}
+
+nav .form-control,
+nav .form-control:focus{
+    background-color: var(--vermelho);
+    color:  var(--branco);
+    border: 1px solid var(--branco);
+    box-shadow:none;
+}
+
+.btn,
+.btn:active,
+.btn:focus,
+.btn:focus:active{
+    background-color: var(--vermelho);
+    color:  var(--branco);
+    border: 1px solid var(--branco);
+}
+.btn:hover{
+    background-color: var(--branco);
+    color:  var(--vermelho);
+    border: 1px solid var(--branco);
+}
+
+footer {
+    background-color: var(--vermelho);
+    color: var(--branco)
+}
+
+a .bi {
+    color: var(--branco);
+}
+
+a .bi:hover{
+    color: var(--branco50);
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS - OPEN SANS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- MEU CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <title>Worten - Tudo o que precisas em Worten.pt</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="text-center sticky-top">
+        <a href="../pages/index.html"><img class="pt-3" src="../assets/img/worten-logo.svg" alt=""></a>
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/sobre.html">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/produtos.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/promocoes.html">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="O que estás à procura?"
+                            aria-label="Search" />
+                        <button class="btn" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container shadow p-3 mb-5 rounded flex-grow-1">
+        <h1 class="text-center">Sobre a Worten</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        2001
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        À distância de um click... Lançámos a nossa loja online Worten.pt. Na altura usávamos a
+                        plataforma Blue Martini para gestão de backoffice.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2007
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Tempo de fazer um refresh! Melhorámos a imagem do novo site mudando para a plataforma Microsoft
+                        (ADM), que permitiu uma maior autonomia e flexibilidade na atualização do site.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        2012
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Upgrade da plataforma para Magento, com a integração de novas funcionalidades que colocaram a
+                        Worten na vanguarda do e-commerce em Portugal.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        2016
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Crescemos e evoluímos. Trabalhámos num novo site e proporcionámos aos nossos clientes uma
+                        experiência mais completa e integrada em todos os nossos canais. Desenvolvemos uma nova
+                        plataforma (Métis) ainda mais flexível, user friendly e adaptada às necessidades do negócio.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid fixed-bottom text-light text-center p-3">
+        <div class="row">
+            <div class="col">
+                <p>© WORTEN - EQUIPAMENTOS PARA O LAR, S.A.</p>
+            </div>
+            <div class="col">
+                <a href="https://www.facebook.com/wortenpt/"><i class="bi bi-facebook mx-3"></i></a>
+                <a href="https://twitter.com/WortenPT"><i class="bi bi-twitter-x mx-3"></i></a>
+                <a href="https://www.instagram.com/wortenpt/?hl=pt"><i class="bi bi-instagram mx-3"></i></a>
+                <a href="https://www.linkedin.com/company/worten/"><i class="bi bi-linkedin mx-3"></i></a>
+                <a href="https://www.twitch.tv/wortenpt"><i class="bi bi-twitch mx-3"></i></a>
+                <a href="https://www.youtube.com/c/worten"><i class="bi bi-youtube mx-3"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- MEU JS -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

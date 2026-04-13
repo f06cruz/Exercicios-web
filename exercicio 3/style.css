@@ -19,18 +19,15 @@ body { background-color: bisque;
     }
 
 
-.saira-stencil-<uniquifier> {
-  font-family: "Saira Stencil", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+
 
 header{ text-align: center; 
     letter-spacing: -1px;
-    line-height: 2; 
+    line-height: 1; 
+    position: sticky;
+    top: 0;
+    background-color: bisque;
+    size-adjust: 0%;
     
 }
 header>img { width: 50%;              
@@ -47,7 +44,8 @@ footer { width: 100%;
     border: 10px;
     text-align: center;
     color: white;
-               
+    position: fixed;
+    bottom:0;           
 }
 nav {
      background-color: grey;
@@ -62,13 +60,14 @@ nav>a {
 a:link{
  color: white;
 }
-/*a:visited{
+a:visited{
     color: green;
-}*/
+}
 a:hover{
     color: hotpink;
     text-decoration: underline overline;
-    transform: scale(5);
+    transform: scale(1.5);
+    font-size: 120%;
 }
 a:active{
     color:blue
@@ -82,7 +81,28 @@ main {
     
 }
 
+i {
+    color: red;
+    size-adjust: 100%;
+}
 
+
+.fa-brands{
+    color: red;
+    transform: scale(2);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.fa-brands:hover {
+    color: blue;
+    transform: scale(2.5);
+    font-size: 120%;
+}
+
+h3,h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
 
 
 

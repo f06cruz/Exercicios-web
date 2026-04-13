@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS - OPEN SANS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- MEU CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <title>Worten - Tudo o que precisas em Worten.pt</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="text-center sticky-top">
+        <a href="../pages/index.html"><img class="pt-3" src="../assets/img/worten-logo.svg" alt=""></a>
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/sobre.html">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/produtos.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/promocoes.html">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="O que estás à procura?"
+                            aria-label="Search" />
+                        <button class="btn" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container shadow p-3 mb-5 rounded flex-grow-1">
+        <h1 class="text-center">Produtos</h1>
+
+        <div class="container-fluid">
+            <div class="row mx-auto w-100">
+                <div class="col-12 col-md-6 col-lg-4 my-1">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="../assets/img/produtos/tv-samsung.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">TV SAMSUNG TU43U8005FUXXC Crystal UHD 4K (43'' - Ultra HD - Smart TV
+                                AI)</h5>
+                            <p class="card-text">€279,99 <span class="badge">NOVO</span></p>
+                            <button type="button" class="btn btn-primary" id="liveToastBtn">Adicionar ao
+                                carrinho</button>
+
+                            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="toast-header">
+                                        <img src="../assets/img/favicon.ico" class="rounded me-2" alt="...">
+                                        <strong class="me-auto">Worten</strong>
+                                        <small>Agora mesmo</small>
+                                        <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="toast-body">
+                                        Produto adicionado ao carrinho!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-1">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="../assets/img/produtos/asus-vivobook.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Portátil ASUS Vivobook M1502YA (15.6" - RYZEN 7 7730U - Ram: 16GB -
+                                1TB)</h5>
+                            <p class="card-text">€699,99</p>
+                            <a href="#" class="btn">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-1">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="../assets/img/produtos/maquina-lg.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Máquina de Lavar Roupa LG F4WR7010AGW (10 kg - 1400 rpm - Branco)
+                            </h5>
+                            <p class="card-text">€549,99</p>
+                            <a href="#" class="btn">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-1">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="../assets/img/produtos/placa-teka.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Placa de Indução TEKA IBC 64110 BK (Elétrica - 60 cm - Preto)</h5>
+                            <p class="card-text">€269,99</p>
+                            <a href="#" class="btn">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-1">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="../assets/img/produtos/philips-depiladora.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Depiladora Luz Pulsada PHILIPS BRI945/00 (IPL - Multi-zonas - Branco)
+                            </h5>
+                            <p class="card-text">€389,99</p>
+                            <a href="#" class="btn">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-1">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="../assets/img/produtos/sony-auscultadores.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Auscultadores Bluetooth SONY WH CH720N (Over Ear - Microfone - Noise
+                                Cancelling - Preto)</h5>
+                            <p class="card-text">€94,99</p>
+                            <a href="#" class="btn">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mt-3" aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer class="container-fluid fixed-bottom text-light text-center p-3">
+        <div class="row">
+            <div class="col">
+                <p>© WORTEN - EQUIPAMENTOS PARA O LAR, S.A.</p>
+            </div>
+            <div class="col">
+                <a href="https://www.facebook.com/wortenpt/"><i class="bi bi-facebook mx-3"></i></a>
+                <a href="https://twitter.com/WortenPT"><i class="bi bi-twitter-x mx-3"></i></a>
+                <a href="https://www.instagram.com/wortenpt/?hl=pt"><i class="bi bi-instagram mx-3"></i></a>
+                <a href="https://www.linkedin.com/company/worten/"><i class="bi bi-linkedin mx-3"></i></a>
+                <a href="https://www.twitch.tv/wortenpt"><i class="bi bi-twitch mx-3"></i></a>
+                <a href="https://www.youtube.com/c/worten"><i class="bi bi-youtube mx-3"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- MEU JS -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
