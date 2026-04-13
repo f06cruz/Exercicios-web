@@ -18,6 +18,7 @@ main{
     margin-bottom: 120px;
 }
 
+
 nav .form-control,
 nav .form-control:focus{
     background-color: var(--vermelho);
@@ -51,4 +52,15 @@ a .bi {
 
 a .bi:hover{
     color: var(--branco50);
+}
+
+.carousel-caption{
+    background-color: var(--vermelho70);
+    color: var(--branco);
+    border-radius: 100px;
+    text-shadow: 
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
