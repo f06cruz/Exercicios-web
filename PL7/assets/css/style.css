@@ -35,6 +35,37 @@ nav .form-control:focus{
     color:  var(--branco);
     border: 1px solid var(--branco);
 }
+
+.badge{
+    background-color: var(--vermelho);
+    color:  var(--branco);
+    border: 1px solid var(--branco);
+}
+
+.card-title{
+    min-height: 96px;
+}
+
+.page-link,
+.page-link:active,
+.page-link:focus{
+     background-color: var(--vermelho);
+    color:  var(--branco);
+    border: 1px solid var(--branco);
+    box-shadow:none;
+}
+
+.page-link:hover{
+background-color: var(--branco);
+    color:  var(--vermelho);
+    border: 1px solid var(--branco);
+}
+
+.toast-header img {
+    width: 20px;
+    height: 20px;
+}
+
 .btn:hover{
     background-color: var(--branco);
     color:  var(--vermelho);
