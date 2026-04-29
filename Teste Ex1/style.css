@@ -1,0 +1,30 @@
+body{
+    background-color: lightgrey;
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    text-align: right;
+    color: lightgrey;
+    font-size: large;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+
+#nome{
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+}

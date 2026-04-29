@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="mudaCor('grey')">
+
+    <h1>Exercício 1</h1>
+    <button id="btn1" onclick="mudaCor('red')">Vermelho</button>
+    <button id="btn2" onclick="mudaCor('green')">Verde</button>
+    <button id="btn3" onclick="mudaCor('blue')">Azul</button>
+    <br><br><br>
+    <button id="btn4" type="button" onclick="cores()">Teste</button>
+    <button id="btn5" type="button" onmousedown="mudaCor('red')" onmouseup="mudaCor('blue')">Teste2</button>
+    <button type="button" onclick="window.location.reload();">Reset</button>
+    <br><br><hr>
+    <h1>Exercício 2 e 3</h1>
+    <form>
+  <div>
+    <label for="nomeInput">Nome</label>
+    <input type="text" class="form-nome" id="form-nome">
+    <span onclick="ajuda('Escreva o nome')">?</span>
+  </div>
+  <div>
+    <label for="nomeInput">Número</label>
+    <input type="text" class="form-nome" id="form-nome">
+    <span onclick="ajuda('Escreva o número')">?</span>
+  </div>
+  <div>
+    <label for="nomeInput">Ano</label>
+    <input type="text" class="form-nome" id="form-nome">
+    <span onclick="ajuda('Escreva o ano')">?</span>
+  </div>
+  <div>
+    <label for="nomeInput">Turma</label>
+    <input type="text" class="form-nome" id="form-nome" autofocus>
+    <span onclick="ajuda('Escreva a turma')">?</span>
+  </div>
+  <br>
+  <button id="btn6" type="button" onclick="alterar(),msg()">Submeter</button>
+</form>
+<br><br><hr>
+<img id="img" width="560" height="315" src="no.jpg" alt="erro?">
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

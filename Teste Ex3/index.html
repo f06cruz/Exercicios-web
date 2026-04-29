@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placard do Jogo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1 class="text-center">Placard do Jogo</h1>
+    <hr>
+    <h3 class="text-center">Equipa A vs Equipa B</h3>
+    <hr>
+    <div class="text-center">
+    <button class="btn btn-primary" onclick="golo('A')">Golo da Equipa A</button>
+    <p>Golos: <span id="golosA">0</span></p>
+    <button class="btn btn-danger" onclick="golo('B')">Golo da Equipa B</button>
+    <p>Golos: <span id="golosB">0</span></p>
+    <p id="resul" class="container" m-auto>Resultado <span id="golosA"></span></p>
+    <hr>
+    <button class="btn btn-secondary" onclick="window.location.reload();">Reiniciar</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>

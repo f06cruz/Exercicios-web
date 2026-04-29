@@ -1,0 +1,6 @@
+json formatter
+
+
+https://jsonplaceholder.typicode.com/
+
+rapid api

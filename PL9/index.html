@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 onmouseover="mudarcor2()">Título da página</h1>
-    <p>Exemplo</p>
-    <p><u>Autor:</u> <span id="autor"></span></p>
-    <button onclick="mudarcor()">mudar cor</button>
-    
+
+    <h1>Exercício 1</h1>
+    <!-- <button onclick="mudaCorVermelho()">Vermelho</button>
+    <button onclick="mudaCorVerde()">Verde</button>
+    <button onclick="mudaCorAzul()">Azul</button>-->
+    <button onclick="mudaCor('red')">Vermelho</button>
+    <button onclick="mudaCor('green')">Verde</button>
+    <button onclick="mudaCor('blue')">Azul</button>
+
+    <h1>Exercício 2 e 3</h1>
+    <p id="texto_ex2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <span id="frase">Laborum ipsa voluptates magnam praesentium.</span>
+        Doloribus aut inventore, minus ipsam eveniet laborum praesentium, eligendi dicta non sed blanditiis cum culpa
+        modi ab!
+    </p>
+    <button onclick="mostrarTexto()">Mostrar Texto</button>
+    <button id="btnFrase" onclick="mostrarFrase()">Esconder Frase</button>
+
+    <h1>Exercício 2 - opção 2</h1>
+    <p id="texto_ex2_2"></p>
+    <button onclick="mostrarTexto2()">Mostrar Texto</button>
+    <h1>Exercício 4 e 5</h1>
+    <p id="texto_ex45">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <span id="frase">Laborum ipsa voluptates magnam praesentium.</span>
+        Doloribus aut inventore, minus ipsam eveniet laborum praesentium, eligendi dicta non sed blanditiis cum culpa
+        modi ab!
+    </p>
+    <button id="btnAumentar" onclick="tamanho(2,'center')">Aumentar Texto</button>
+    <button id="btnDiminuir" onclick="tamanho(-2,'right')">Diminuir Texto</button>
+    <button id="btnOriginal" onclick="original()">Reset Texto</button>
+
+
+    <script src="main.js"></script>
 </body>
-<script src="main.js"></script>
+
 </html>

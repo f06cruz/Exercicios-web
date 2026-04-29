@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+label,
+span{
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: red;
+}
+
+#img{
+    display:none
+}

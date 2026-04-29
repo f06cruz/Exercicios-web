@@ -276,7 +276,9 @@ function ex23(){
 function ex24(){
     let num=Math.ceil(Math.random()*100)
 
-    if(num.length%2!=0)
+    while(num.length>0)
+        //...
+    num=num.substr(1,Number.length-2)
         console.log(num)
 }
 
